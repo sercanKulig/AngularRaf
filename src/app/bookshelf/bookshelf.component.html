@@ -1,0 +1,9 @@
+<div class="row" style="padding: 20px;">
+  <div class="col-md-12">
+    <div *ngFor="let bookShelfEl of bookShelf;">
+      <div class="bookShelf" *ngIf="bookShelfEl.status">
+          <app-shelf></app-shelf>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+.shelf{
+  max-width: 500px;
+  max-height: 1000px;
+  min-width: 50px;
+  min-height: 70px;
+  background-color: red;
+}
+
+.shelfParamater{
+  display: none;
+}
+
+.shelf:hover .shelfParamater{
+  display: block;
+}
+
+.shelfParamaterStart {
+  float:left;
+}
+
+.shelfParamaterEnd {
+  float:right;
+}
